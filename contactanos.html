@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - GorrasPulco</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de ofertas -->
+    <div class="top-bar">
+        <p>¡Ofertas especiales! Hasta 50% de descuento en gorras seleccionadas</p>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="GorrasPulco Logo">
+                    <h1>GorrasPulco</h1>
+                </a>
+            </div>
+            
+            <div class="search-bar">
+                <form id="search-form">
+                    <input type="text" placeholder="Buscar gorras, productos..." id="search-input">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            
+            <div class="user-actions">
+                <a href="#" id="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span>Mi Cuenta</span>
+                </a>
+                <a href="#" id="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Carrito</span>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#hombre">Hombre</a></li>
+                <li><a href="index.html#mujer">Mujer</a></li>
+                <li><a href="index.html#unisex">Unisex</a></li>
+                <li><a href="contactanos.html" class="active">Contáctanos</a></li>
+                <li><a href="acercade.html">Acerca de Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner de página -->
+    <section class="page-banner">
+        <div class="banner-content">
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para ayudarte. ¡Escríbenos o visítanos!</p>
+        </div>
+    </section>
+
+    <!-- Contenido principal -->
+    <main class="contact-content">
+        <section class="contact-intro">
+            <h2>¿Tienes preguntas o necesitas asesoría?</h2>
+            <p>En GorrasPulco nos encanta escuchar a nuestros clientes. Ya sea que necesites ayuda para elegir la gorra perfecta, tengas preguntas sobre nuestros productos o quieras conocer más sobre nosotros, estamos aquí para ayudarte.</p>
+        </section>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Visita nuestra tienda</h3>
+                    <p>Galerías Acapulco</p>
+                    <p>Av. Costera Miguel Alemán 121</p>
+                    <p>Acapulco, Guerrero, México</p>
+                    <p>C.P. 39670</p>
+                    <a href="https://maps.app.goo.gl/4MVQSHKfb58dgsdN6" target="_blank" class="map-link">Ver en Google Maps</a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Llámanos</h3>
+                    <p>Teléfono: <strong>744-137-1570</strong></p>
+                    <p>Horario de atención telefónica:</p>
+                    <p>Lunes a Viernes: 9:00 AM - 8:00 PM</p>
+                    <p>Sábados: 10:00 AM - 6:00 PM</p>
+                    <a href="tel:7441371570" class="phone-link">Llamar ahora</a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Escríbenos</h3>
+                    <p>Email: <strong>gorraspulco@gmail.com</strong></p>
+                    <p>Respondemos en menos de 24 horas</p>
+                    <p>Para consultas generales, pedidos especiales o colaboraciones</p>
+                    <a href="mailto:gorraspulco@gmail.com" class="email-link">Enviar correo</a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>Chat directo con nuestro equipo</p>
+                    <p>Atención inmediata para consultas rápidas</p>
+                    <p>Envíos de fotos de productos disponibles</p>
+                    <a href="https://wa.me/527441371570" target="_blank" class="whatsapp-link">Abrir WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="contact-form-section">
+                <h2>Envíanos un mensaje</h2>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre completo *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Asunto *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Selecciona un asunto</option>
+                            <option value="consulta">Consulta sobre productos</option>
+                            <option value="pedido">Pedido especial</option>
+                            <option value="soporte">Soporte post-venta</option>
+                            <option value="queja">Queja o sugerencia</option>
+                            <option value="colaboracion">Colaboración</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="social-media-section">
+            <h2>Síguenos en redes sociales</h2>
+            <p>Mantente al día con nuestras novedades, lanzamientos y promociones especiales</p>
+            
+            <div class="social-grid">
+                <a href="https://facebook.com/gorraspulco" target="_blank" class="social-card facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <h3>Facebook</h3>
+                    <p>@gorraspulco</p>
+                    <span>Ver perfil</span>
+                </a>
+
+                <a href="https://instagram.com/gorraspulco" target="_blank" class="social-card instagram">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>@gorraspulco</p>
+                    <span>Ver perfil</span>
+                </a>
+
+                <a href="https://twitter.com/gorraspulco" target="_blank" class="social-card twitter">
+                    <i class="fab fa-x-twitter"></i>
+                    <h3>X (Twitter)</h3>
+                    <p>@gorraspulco</p>
+                    <span>Ver perfil</span>
+                </a>
+
+                <a href="https://tiktok.com/@gorraspulco" target="_blank" class="social-card tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <h3>TikTok</h3>
+                    <p>@gorraspulco</p>
+                    <span>Ver perfil</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2>Preguntas frecuentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>¿Hacen envíos a domicilio?</h3>
+                    <p>Sí, realizamos envíos a toda el área metropolitana de Acapulco sin costo adicional. Para envíos a otros estados de México, contamos con servicio de paquetería con costo adicional.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Cómo puedo saber mi talla de gorra?</h3>
+                    <p>Puedes visitar nuestra tienda para probarte las gorras o consultar nuestra guía de tallas en línea. También puedes contactarnos por WhatsApp y te ayudaremos a determinar tu talla ideal.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Aceptan pagos con tarjeta?</h3>
+                    <p>Sí, aceptamos todas las tarjetas de crédito y débito, además de pagos en efectivo, transferencias bancarias y PayPal.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Tienen garantía los productos?</h3>
+                    <p>Todas nuestras gorras tienen garantía de autenticidad y calidad. Si recibes un producto defectuoso, puedes cambiarlo dentro de los primeros 15 días después de la compra.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+    <h2>Encuéntranos fácilmente</h2>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.290761446929!2d-99.88673776388165!3d16.861505248833538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca581fd408a1f3%3A0xdfae16ae7cdd3d74!2sGaler%C3%ADas%20Acapulco!5e0!3m2!1ses-419!2smx!4v1758596702571!5m2!1ses-419!2smx" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+        </section>
+    </main>
+
+    <!-- Botón de WhatsApp -->
+    <a href="https://wa.me/527441371570" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>GorrasPulco</h3>
+                <p>Tu tienda de gorras en Acapulco, Guerrero. Ofrecemos la mejor selección de gorras para hombre, mujer y unisex.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#hombre">Hombre</a></li>
+                    <li><a href="index.html#mujer">Mujer</a></li>
+                    <li><a href="index.html#unisex">Unisex</a></li>
+                    <li><a href="contactanos.html">Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Acapulco, Guerrero, México</p>
+                <p><i class="fas fa-phone"></i> 744-137-1570</p>
+                <p><i class="fas fa-envelope"></i> gorraspulco@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com/gorraspulco" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/gorraspulco" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/gorraspulco" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://tiktok.com/@gorraspulco" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 GorrasPulco. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
