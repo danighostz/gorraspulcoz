@@ -981,8 +981,15 @@ footer {
 
 /* Sección de valores */
 .values-section {
-    margin-bottom: 20px;
-    padding-left: 500px; /* Ajusta según tu preferencia */
+    padding: 0 5%; /* Padding horizontal flexible */
+    text-align: center; /* Centrar el título y contenido */
+}
+
+.values-grid {
+    margin: 0 auto; /* Centrar la cuadrícula */
+    gap: 30px;      /* Mantener espacio entre elementos */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .values-section h2 {
@@ -995,12 +1002,6 @@ footer {
 }
 
 
-.values-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
-    margin-left: 50px; /* Ajusta este valor según lo necesites */
-}
 
 .value-item {
     background-color: white;
