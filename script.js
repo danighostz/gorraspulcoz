@@ -35,7 +35,7 @@ const products = [
     {
         id: 3,
         name: "Gorra Tonal 9FORTY Ajustable Negra New Era",
-        category: "unisex",
+        category: "hombre",
         price: 649,
         originalPrice: 849,
         description: "Gorra tonal negra de la marca New Era. Diseño clásico y atemporal.",
@@ -112,6 +112,7 @@ const products = [
         inStock: true,
         sizes: ["S", "M", "L", "XL"]
     },
+    
     {
         id: 8,
         name: "Gorra New Era City Script 9FORTY Ajustable Rosado",
@@ -124,6 +125,214 @@ const products = [
             "img/Gorra New Era City Script 9FORTY Ajustable Rosado New Era/2.webp",
             "img/Gorra New Era City Script 9FORTY Ajustable Rosado New Era/3.webp",
             "img/Gorra New Era City Script 9FORTY Ajustable Rosado New Era/4.webp"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L"]
+    },
+    {
+        id: 9, // nuevo ID único
+        name: "Gorra Squid Game Injection 59FIFTY Cerrada Beige New Era",
+        category: "unisex",
+        price: 749,
+        originalPrice: 949,
+        description: "Gorra inspirada en Squid Game con diseño Injection, estilo 59FIFTY cerrada, color beige. Edición especial.",
+        images: [
+            "img/Gorra Squid Game Squid Game Injection 59FIFTY Cerrada Beige New Era/1.webp",
+            "img/Gorra Squid Game Squid Game Injection 59FIFTY Cerrada Beige New Era/2.webp",
+            "img/Gorra Squid Game Squid Game Injection 59FIFTY Cerrada Beige New Era/3.webp",
+            "img/Gorra Squid Game Squid Game Injection 59FIFTY Cerrada Beige New Era/4.webp"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L", "XL"]        
+    },
+    {
+    id: 10,
+        name: "Gorra New Era Flag 9FORTY Ajustable Negra",
+        category: "hombre",
+        price: 599,
+        originalPrice: 799,
+        description: "Gorra ajustable negra de New Era con diseño de bandera. Estilo clásico y versátil.",
+        images: [
+            "img/Gorra New Era Flag 9FORTY Ajustable Negra/1.png",
+            "img/Gorra New Era Flag 9FORTY Ajustable Negra/2.png",
+            "img/Gorra New Era Flag 9FORTY Ajustable Negra/3.png",
+            "img/Gorra New Era Flag 9FORTY Ajustable Negra/4.png"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        id: 11,
+        name: "Gorra New Era Flag 9FORTY Ajustable Roja",
+        category: "hombre",
+        price: 599,
+        originalPrice: 799,
+        description: "Gorra roja ajustable de New Era con bandera estampada. Perfecta para outfits casuales.",
+        images: [
+            "img/Gorra New Era Flag 9FORTY Ajustable Roja/1.png",
+            "img/Gorra New Era Flag 9FORTY Ajustable Roja/2.png",
+            "img/Gorra New Era Flag 9FORTY Ajustable Roja/3.png",
+            "img/Gorra New Era Flag 9FORTY Ajustable Roja/4.png"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        id: 12,
+        name: "Gorra New Era License Plate 9FORTY AF TRUCKER Ajustable Beige",
+        category: "hombre",
+        price: 699,
+        originalPrice: 899,
+        description: "Gorra beige estilo trucker de New Era con placa decorativa. Diseño moderno y cómodo.",
+        images: [
+            "img/Gorra New Era License Plate 9FORTY AF TRUCKER Ajustable Beige/1.png",
+            "img/Gorra New Era License Plate 9FORTY AF TRUCKER Ajustable Beige/2.png",
+            "img/Gorra New Era License Plate 9FORTY AF TRUCKER Ajustable Beige/3.png",
+            "img/Gorra New Era License Plate 9FORTY AF TRUCKER Ajustable Beige/4.png"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L"]
+    },
+    {
+        id: 13,
+        name: "Gorra New Era Metal Badge 9FORTY Ajustable Negra",
+        category: "hombre",
+        price: 649,
+        originalPrice: 849,
+        description: "Gorra negra de New Era con placa metálica decorativa. Estilo elegante y urbano.",
+        images: [
+            "img/Gorra New Era Metal Badge 9FORTY Ajustable Negra/1.png",
+            "img/Gorra New Era Metal Badge 9FORTY Ajustable Negra/2.png",
+            "img/Gorra New Era Metal Badge 9FORTY Ajustable Negra/3.png",
+            "img/Gorra New Era Metal Badge 9FORTY Ajustable Negra/4.png"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        id: 14,
+        name: "Gorra New Era Ne Patch 9FORTY Ajustable Azul",
+        category: "hombre",
+        price: 649,
+        originalPrice: 849,
+        description: "Gorra azul ajustable de New Era con parche de logo. Diseño deportivo y casual.",
+        images: [
+            "img/Gorra New Era Ne Patch 9FORTY Ajustable Azul New Era/1.webp",
+            "img/Gorra New Era Ne Patch 9FORTY Ajustable Azul New Era/2.webp",
+            "img/Gorra New Era Ne Patch 9FORTY Ajustable Azul New Era/3.webp",
+            "img/Gorra New Era Ne Patch 9FORTY Ajustable Azul New Era/4.webp"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        id: 15,
+        name: "Gorra New Era Outdoor Patch 9FORTY Ajustable Negra",
+        category: "hombre",
+        price: 699,
+        originalPrice: 899,
+        description: "Gorra negra de New Era con parche outdoor. Ideal para actividades al aire libre.",
+        images: [
+            "img/Gorra New Era Outdoor Patch 9FORTY Ajustable Negra/1.png",
+            "img/Gorra New Era Outdoor Patch 9FORTY Ajustable Negra/2.png",
+            "img/Gorra New Era Outdoor Patch 9FORTY Ajustable Negra/3.png",
+            "img/Gorra New Era Outdoor Patch 9FORTY Ajustable Negra/4.png"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        id: 16,
+        name: "Gorra New Era Performance 9FIFTY Ajustable Roja",
+        category: "hombre",
+        price: 799,
+        originalPrice: 999,
+        description: "Gorra roja de performance de New Era. Perfecta para actividades deportivas intensas.",
+        images: [
+            "img/Gorra New Era Performance 9FIFTY Ajustable Roja/1.webp",
+            "img/Gorra New Era Performance 9FIFTY Ajustable Roja/2.webp",
+            "img/Gorra New Era Performance 9FIFTY Ajustable Roja/3.webp",
+            "img/Gorra New Era Performance 9FIFTY Ajustable Roja/4.webp"
+        ],
+        inStock: true,
+        sizes: ["M", "L", "XL"]
+    },
+    {
+        id: 17,
+        name: "Gorra New Era Performance 9FORTY Ajustable Beige",
+        category: "mujer",
+        price: 749,
+        originalPrice: 949,
+        description: "Gorra beige de New Era, cómoda y ligera. Ideal para estilo casual y deportivo.",
+        images: [
+            "img/Gorra New Era Performance 9FORTY Ajustable Beige/1.webp",
+            "img/Gorra New Era Performance 9FORTY Ajustable Beige/2.webp",
+            "img/Gorra New Era Performance 9FORTY Ajustable Beige/3.webp",
+            "img/Gorra New Era Performance 9FORTY Ajustable Beige/4.webp"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L"]
+    },
+    {
+        id: 18,
+        name: "Gorra New Era Performance 9FORTY Ajustable Negra",
+        category: "unisex",
+        price: 749,
+        originalPrice: 949,
+        description: "Gorra negra de New Era, estilo deportivo y casual. Ajustable para todas las tallas.",
+        images: [
+            "img/Gorra New Era Performance 9FORTY Ajustable Negra/1.webp",
+            "img/Gorra New Era Performance 9FORTY Ajustable Negra/2.webp",
+            "img/Gorra New Era Performance 9FORTY Ajustable Negra/3.webp",
+            "img/Gorra New Era Performance 9FORTY Ajustable Negra/4.webp"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L", "XL"]
+    },
+    {
+        id: 19,
+        name: "Gorra New Era Performance 59FIFTY Cerrada Azul",
+        category: "hombre",
+        price: 849,
+        originalPrice: 1049,
+        description: "Gorra cerrada azul de New Era, modelo 59FIFTY. Estilo clásico y elegante.",
+        images: [
+            "img/Gorra New Era Performance 59FIFTY Cerrada Azul/1.webp",
+            "img/Gorra New Era Performance 59FIFTY Cerrada Azul/2.webp",
+            "img/Gorra New Era Performance 59FIFTY Cerrada Azul/3.webp",
+            "img/Gorra New Era Performance 59FIFTY Cerrada Azul/4.webp"
+        ],
+        inStock: true,
+        sizes: ["M", "L", "XL"]
+    },
+    {
+        id: 20,
+        name: "Gorra New Era Performance RUNNER Ajustable Negra",
+        category: "hombre",
+        price: 799,
+        originalPrice: 999,
+        description: "Gorra negra RUNNER de New Era, ligera y ajustable. Ideal para correr y deporte.",
+        images: [
+            "img/Gorra New Era Performance RUNNER Ajustable Negra/1.webp",
+            "img/Gorra New Era Performance RUNNER Ajustable Negra/2.webp",
+            "img/Gorra New Era Performance RUNNER Ajustable Negra/3.webp",
+            "img/Gorra New Era Performance RUNNER Ajustable Negra/4.webp"
+        ],
+        inStock: true,
+        sizes: ["S", "M", "L"]
+    },
+    {
+        id: 21,
+        name: "Gorra New Era Performance RUNNER Ajustable Verde",
+        category: "unisex",
+        price: 799,
+        originalPrice: 999,
+        description: "Gorra verde RUNNER de New Era. Ajustable, ligera y perfecta para actividades deportivas.",
+        images: [
+            "img/Gorra New Era Performance RUNNER Ajustable Verde/1.webp",
+            "img/Gorra New Era Performance RUNNER Ajustable Verde/2.webp",
+            "img/Gorra New Era Performance RUNNER Ajustable Verde/3.webp",
+            "img/Gorra New Era Performance RUNNER Ajustable Verde/4.webp"
         ],
         inStock: true,
         sizes: ["S", "M", "L"]
