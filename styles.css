@@ -1,3 +1,4 @@
+
 /* Barra de ofertas */
 .top-bar {
     background-color: #ff6d00;
@@ -799,7 +800,7 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     .header-content {
-        flex-direction: column;
+       
         padding: 15px;
     }
     
