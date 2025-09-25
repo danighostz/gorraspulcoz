@@ -1,3 +1,31 @@
+/* Barra de ofertas */
+.top-bar {
+    background-color: #ff6d00;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .top-bar {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top-bar {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+}
+
 /* Variables CSS */
 :root {
     --primary: #000000;
