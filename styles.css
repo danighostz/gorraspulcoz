@@ -53,15 +53,6 @@ body {
     line-height: 1.6;
 }
 
-/* Barra de ofertas */
-.top-bar {
-    background-color: var(--dark);
-    color: white;
-    padding: 8px 0;
-    text-align: center;
-    font-size: 14px;
-}
-
 .top-bar p {
     margin: 0;
 }
@@ -814,8 +805,21 @@ footer {
         margin: 15px 0;
     }
     
+    /* 🔥 Ajuste de navegación en móviles */
     nav ul {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: nowrap;       /* evita que salten a otra fila */
+        overflow-x: auto;        /* scroll lateral si no caben */
+        -webkit-overflow-scrolling: touch; /* scroll suave */
+    }
+
+    nav li {
+        flex: 0 0 auto;          /* evita que se encojan */
+    }
+
+    nav a {
+        padding: 12px 15px;
+        white-space: nowrap;     /* evita que se partan las palabras */
     }
     
     .banner {
@@ -840,6 +844,7 @@ footer {
         width: 100%;
     }
 }
+
 
 /* Estilos específicos para la página Acerca de Nosotros */
 
@@ -1497,7 +1502,7 @@ footer {
 /* Para pantallas muy pequeñas */
 @media screen and (max-width: 480px) {
     .user-actions a {
-        padding: 6px 8px;
+        padding: 6px 8
     }
     
     .user-actions i {
