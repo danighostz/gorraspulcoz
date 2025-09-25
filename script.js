@@ -130,7 +130,7 @@ const products = [
         sizes: ["S", "M", "L"]
     },
     {
-        id: 9, // nuevo ID único
+        id: 9, 
         name: "Gorra Squid Game Injection 59FIFTY Cerrada Beige New Era",
         category: "unisex",
         price: 749,
@@ -963,3 +963,4 @@ function initFAQ() {
     });
 }
 document.head.appendChild(style);
+
